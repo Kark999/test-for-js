@@ -1,4 +1,4 @@
-https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/train/javascript
+// https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/train/javascript
 
 // function reverseWords(str) {
 //   //   let result = [];
@@ -18,7 +18,7 @@ https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/train/javascript
 
 ////////////////////////////////////////////////////////////////////////////////
 
-https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/train/javascript
+// https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/train/javascript
 
 // function reverseWords(str) {
 //   let str1 = str.split('').reverse().join('');
