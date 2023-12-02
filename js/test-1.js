@@ -51,3 +51,32 @@
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// https://www.codewars.com/kata/559590633066759614000063/
+
+// function minMax(arr) {
+//   return [Math.min(...arr), Math.max(...arr)];
+// }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// The main idea is to count all the occurring characters in a string. If you have a string like aba, then the result should be {'a': 2, 'b': 1}.
+
+// What if the string is empty? Then the result should be empty object literal, {}.
+
+// function count(string) {
+//   let resultObj = {};
+
+//   for (let i = 0; i < string.length; i++) {
+//     let currentChar = string[i];
+//     if (resultObj[currentChar] === undefined) {
+//       resultObj[currentChar] = 1;
+//     } else {
+//       resultObj[currentChar]++;
+//     }
+//   }
+
+//   return resultObj;
+// }
+
+// console.log(count('abbaaaccc'));
+// console.log(count('AABBBACCCACACC'));
