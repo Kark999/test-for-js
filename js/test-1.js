@@ -126,3 +126,44 @@
 // }
 
 // console.log(fakeBin('40293822847536190'));
+
+//======================================================
+
+// function oddOrEven(array) {
+//   return array.reduce((sum, a) => sum + a, 0) % 2 ? 'odd' : 'even';
+// }
+// console.log(oddOrEven([1, 2, 3, 4, 5]));
+//=================================================================
+
+// String.prototype.toJadenCase = function () {
+//   return this.split(' ')
+//     .map(x => x[0].toUpperCase() + x.slice(1))
+//     .join(' ');
+// };
+// console.log('hello world my name is Vasya'.toJadenCase());
+//===========================================================================
+// function getSum(a, b) {
+//   if (a === b) {
+//     return a;
+//   }
+//   const min = Math.min(a, b);
+//   const max = Math.max(a, b);
+//   let arr = [];
+//   for (let i = min; i <= max; i++) {
+//     arr.push(i);
+//   }
+//   return arr.reduce((sum, x) => sum + x, 0);
+// }
+function getSum(a, b) {
+  if (a === b) {
+    return a;
+  }
+  let total = 0;
+  for (let i = Math.min(a, b); i <= Math.max(a, b); i++) {
+    total += i;
+  }
+  return total;
+}
+
+console.log(getSum(2, 5));
+//===============================================================
