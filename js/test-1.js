@@ -154,16 +154,16 @@
 //   }
 //   return arr.reduce((sum, x) => sum + x, 0);
 // }
-function getSum(a, b) {
-  if (a === b) {
-    return a;
-  }
-  let total = 0;
-  for (let i = Math.min(a, b); i <= Math.max(a, b); i++) {
-    total += i;
-  }
-  return total;
-}
+// function getSum(a, b) {
+//   if (a === b) {
+//     return a;
+//   }
+//   let total = 0;
+//   for (let i = Math.min(a, b); i <= Math.max(a, b); i++) {
+//     total += i;
+//   }
+//   return total;
+// }
 
-console.log(getSum(2, 5));
+// console.log(getSum(2, 5));
 //===============================================================
