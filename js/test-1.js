@@ -167,3 +167,85 @@
 
 // console.log(getSum(2, 5));
 //===============================================================
+// let x = 5;
+// let y = 10;
+
+// let temp;
+
+// temp = x;
+// x = y;
+// y = temp;
+
+// console.log('x=', x);
+// console.log('y=', y);
+// console.log(z);
+
+// // =============================================================
+
+// x = 10;
+// y = 100;
+
+// x = x + y;
+// y = x - y;
+// x = x - y;
+
+// console.log('x=', x);
+// console.log('y=', y);
+//===================================================================
+// function sumOfDifferences(arr) {
+//   arr.sort((a, b) => b - a);
+//   let result = [];
+//   for (let i = 0; i < arr.length - 1; i++) {
+//     result.push(arr[i] - arr[i + 1]);
+//   }
+//   return result.reduce((sum, a) => sum + a, 0);
+// }
+// console.log(sumOfDifferences([10, 5, 3, 1]));
+
+// the best variant
+// function sumOfDifferences(arr) {
+//   return arr.length > 1 ? Math.max(...arr) - Math.min(...arr) : 0;
+// }
+//==========================================================================
+// const sumOfDifferences = arr =>
+//   arr
+//     .sort((a, b) => b - a)
+//     .reduce(
+//       (acc, x, i, a) =>
+//         arr.length > 1 ? (i + 1 < arr.length ? acc + x - a[i + 1] : acc) : 0,
+//       0,
+//     );
+// console.log(sumOfDifferences([10, 3, 1]));
+// console.log(sumOfDifferences([10, 7, 1]));
+// console.log(sumOfDifferences([100, 17, 11]));
+// console.log(sumOfDifferences([101, 7, 1]));
+// console.log(sumOfDifferences([110, 7, 15]));
+// console.log(sumOfDifferences([1, 79, 2]));
+//===========================================================================
+// function squareSum(numbers) {
+//   return numbers.reduce((sum, elem) => sum + elem ** 2, 0);
+// }
+// console.log(squareSum([2, 3, 4, 5]));
+// // squareSum([0, 3, 4, 5]);
+//=========================================================================
+// const number = function (busStops) {
+//   return busStops.reduce((a, b) => a + b[0] - b[1], 0);
+// };
+//the best practice
+// const number = busStops =>
+//   busStops.reduce((rem, [on, off]) => rem + on - off, 0);
+
+// console.log(
+//   number([
+//     [3, 0],
+//     [9, 1],
+//     [4, 10],
+//     [12, 2],
+//     [6, 1],
+//     [7, 10],
+//   ]),
+// );
+function addBinary(a, b) {
+  return typeof (a + b).toString(2);
+}
+console.log(addBinary(5, 7));
