@@ -329,3 +329,8 @@
     - `$`        End the string right after specified amount of allowed characters is given.
   */
 //================================================================
+
+
+document.addEventListener('contextmenu', (e) => {
+  e.preventDefault();
+})
