@@ -107,5 +107,11 @@
 <symbol id="switcher-btn" viewBox="0 0 32 32">
 <path d="M14.769 24.615c6.118 0 11.077-4.959 11.077-11.077s-4.959-11.077-11.077-11.077c-6.118 0-11.077 4.959-11.077 11.077s4.959 11.077 11.077 11.077z"></path>
 </symbol>
+<symbol id="amazon" viewBox="0 0 99 32">
+<path d="M0 0.8h99.2v30.4h-99.2v-30.4z"></path>
+</symbol>
+<symbol id="apple-book" viewBox="0 0 33 32">
+<path d="M0 0h33v32h-33v-32z"></path>
+</symbol>
   </defs>
 </svg>
